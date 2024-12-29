@@ -8,7 +8,7 @@ import tensorflow as tf
 
 app = Flask(__name__)
 
-# Load your saved CNN model
+# Load your saved CNN model in proper format
 model_path = "saved_models/mnist_cnn"
 model = tf.keras.models.load_model(model_path)
 model.summary()  # optional, just to see the CNN layers
