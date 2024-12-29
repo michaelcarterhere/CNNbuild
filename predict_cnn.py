@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-def load_pretrained_model(model_path='saved_models/mnist_cnn'):
+def load_pretrained_model(model_path='saved_models/mnist_cnn.keras'):
     return tf.keras.models.load_model(model_path)
 
 if __name__ == "__main__":
