@@ -44,5 +44,5 @@ if __name__ == "__main__":
     print(f"Test accuracy: {test_accuracy:.4f}, Test loss: {test_loss:.4f}")
 
     # Save model
-    model.save('saved_models/mnist_cnn')
+    model.save('saved_models/mnist_cnn.keras', save_format='keras')
     print("Model saved to 'saved_models/mnist_cnn'")
